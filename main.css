@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #764936;
+    font-family: 'Cuprum', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./img/back_for_header.jpeg);
+    background-color: #482b26;
+    background-position: center;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding: 0 50px;
+}
+.logo {
+    display: flex;
+    flex: 0  1 35%;
+}
+.hed {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+.btn-1yw {
+    text-align: center;
+    margin-left: auto;
+    width: 100px;
+    height: 38px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(76, 65, 28);
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    padding: .7em 1.5em;
+    margin-top: 15px;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    background: rgb(216, 189, 91);
+} 
+.btn-2yw {
+    text-align: center;
+    margin: 0 0 5% 20%;
+    width: 100px;
+    height: 18px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(76, 65, 28);
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    padding: .7em 1.5em;
+    margin-top: 15px;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    background: rgb(216, 189, 91);
+} 
+li.dws {
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+}
+ul.dvs{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a17;
+}
+section {
+    padding: 100px 0;
+}
+h1 { 
+    font-size: 48px;
+    margin: 0 270px;
+    padding: 0;
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: none;
+    color: #F6F2CB;
+   }
+
+a {
+    font-family: 'Cuprum', sans-serif;
+    color: #FFE5DB;
+    text-decoration: none;
+}
+.btn {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(176, 122, 87);
+    transition: .2s;
+  } 
+.btn-yw {
+    text-align: center;
+    margin: 0 42%;
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(76, 65, 28);
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(216, 189, 91);
+    transition: .2s;
+  } 
+.btn-bw {
+    text-align: center;
+    width: 100px;
+    margin: 0 40%;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(243, 207, 186);
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 3px solid rgb(216, 189, 91);
+    border-radius: 5px;
+    outline: none;
+    background: #764936;
+    transition: .2s;
+  } 
+p {
+    font-family: 'Cuprum', sans-serif;
+    color: #FFE5DB;
+    margin: 15px 0;
+}
+
+h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #E6C55C;
+    padding: 10px 0;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #F9F871;
+    padding: 10px 0;
+    font-size: 22px;
+}
+ul {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #FFE5DB;
+}
+ol {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #FFE5DB;
+}
+.bg-muted {
+    background-color: #A26D43;
+    font-family: 'Cuprum', sans-serif;
+    opacity: 1.0;
+    padding: 20px 180px;
+}
+.bg-decor {
+    background-image: url(./img/фон_кава.png);
+    background-size: 6%;
+    background-position: center; 
+    background-repeat: space ;
+    /* filter: alpha(Opacity = 40); 
+    opacity: 0.4;
+    transform: rotate(30deg); */
+}
+.link {
+    color: #E6C55C;
+    font-size:medium;
+    font-weight:small;
+    letter-spacing:xx-small;
+}
+.fig {
+    text-align: center;
+}
+.midt {
+    margin: 0 360px;
+    text-align: center;
+    width:max-content;
+    color: #F9F871;
+    font-size: 50px;
+}
+.container {
+    max-width: 2000px;
+    margin: 0 50px 0 50px;
+    padding: 0 15px;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+div.blok {
+    padding: 20px;
+    font-size: 20px;
+}
+.blok2 {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+}
+fieldset{
+    border-color: #FFA244;
+    width: 40em;
+    margin: 25px auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #FFE5DB;
+}
+input{
+    border-style: solid;
+    height: 25px;
+    border-color: #FFA244;
+    border-width: 2px;
+}
+select{
+    height: 30px;
+    border-color: #FFA244;
+    width: 300px;
+    margin: 10px 0;
+    border-width: 2px;
+    padding: 1px 2px;
+}
+.dilivery {
+    width: 40em;
+    margin: 25px auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input:focus {
+    border-color: #FFA244;
+    background-color: #FFE5DB;
+    color: #2C2B4C;
+}
+select:focus {
+    border-color: #FFA244;
+    background-color: #FFE5DB;
+    color: #2C2B4C;
+}
