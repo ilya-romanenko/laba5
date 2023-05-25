@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <style>
+        textarea {
+            resize: none;
+            border: 2px solid #FFA244;
+            padding: 10px;
+            width: 710px;
+            height: 100px;
+            box-sizing: border-box;
+            font-size: 14px;
+            margin: 0 40px;
+        }
+        div.blok {
+            padding: 20px;
+            font-size: 20px;
+        }
+        .blok2 {
+            position:relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 16em;
+        }
+        fieldset{
+            border-color: #FFA244;
+            width: 40em;
+            margin: 25px auto; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: #FFE5DB;
+        }
+        input{
+            border-style: solid;
+            height: 25px;
+            border-color: #FFA244;
+            border-width: 2px;
+        }
+        select{
+            height: 30px;
+            border-color: #FFA244;
+            width: 300px;
+            margin: 10px 0;
+            border-width: 2px;
+            padding: 1px 2px;
+        }
+        .dilivery {
+            width: 40em;
+            margin: 25px auto; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        input:focus {
+            border-color: #FFA244;
+            background-color: #FFE5DB;
+            color: #2C2B4C;
+        }
+        select:focus {
+            border-color: #FFA244;
+            background-color: #FFE5DB;
+            color: #2C2B4C;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hed">
+        <div class="logo"><img src="..\img\logo.png" height="100" width="110"></div>
+        <nav class="navbar">
+            <ul class="dvs">
+                <li class="dws"><a href="../index.html" title="Перейти на головну сторінку" target="_blank">Головна</a></li>
+                <li class="dws"><a href="about.html" title="Про нас" target="_blank">Підписка</a></li>
+                <li class="dws"><a href="caffeine.html" title="Цікава інформація про кофеїн" target="_blank">Про кофеїн</a></li>
+                <li class="dws"><a href="afisa.html" title="Жива музика прямо у кав'ярні!" target="_blank">Афіша</a></li>
+            </ul>
+        </nav>
+        <a href="form.html" title="Замовити доставку" class="btn-1yw">Замовити online</a>
+        <h1>Ласкаво просимо у кафе Starbuzz</h1>
+        </div>
+    </header>
+    <div class="blok">
+        <fieldset>
+        <legend>Напишіть свій відгук</legend>
+        <div class="blok2">
+        <form action="">
+            <label for="sur">Прізвище</label>
+            <input type="text" id="sur" name="sur" placeholder="Шевченко" style="width: 300px; margin: 10px 0;"><br><br>
+            <label for="mal">E-mail</label>
+            <input type="text" id="mal" name="mal" placeholder="t.sheva@gmail.com" style="width: 300px; margin: 10px 0;"><br><br>
+        </div>
+        <div class="blok2">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" placeholder="Тарас" style="width: 300px; margin: 10px 20px 10px 0px;"><br><br>
+            <label for="mob">Телефон</label>
+            <input type="text" id="mob" name="mob" placeholder="123-456-789" style="width: 300px; margin: 10px 0;"><br><br>
+        </div>
+        <div class="rating-area">
+            <input type="radio" id="star-5" name="rating" value="5">
+            <label for="star-5" title="Оценка «5»"></label>	
+            <input type="radio" id="star-4" name="rating" value="4">
+            <label for="star-4" title="Оценка «4»"></label>    
+            <input type="radio" id="star-3" name="rating" value="3">
+            <label for="star-3" title="Оценка «3»"></label>  
+            <input type="radio" id="star-2" name="rating" value="2">
+            <label for="star-2" title="Оценка «2»"></label>    
+            <input type="radio" id="star-1" name="rating" value="1">
+            <label for="star-1" title="Оценка «1»"></label>
+        </div>
+        <p><textarea name="comment" placeholder="Залишіть свій відгук тут..."></textarea></p>
+        </fieldset>
+    </div>
+    <div style="margin-right: auto; margin-left: auto; display: block; width: fit-content;">
+    <a href="result.html" class="btn-yw" style="margin: 0 0 50px; width: auto;">Відправити відгук</a>
+    </div>
+    <footer>
+        <div style="margin: 0 11em;">
+            <h2>Контакти </h2>
+            <p>Ви знайдете нас в самому центрі Києва. Чекаємо на Вас!</p>
+        </div>
+        <div style="display: flex; justify-content: space-around; align-items: center;">
+        <div style="display: flex; flex-wrap: wrap; margin: 10px 30px 30px 30px; width: 10em;">
+            <p style="font-weight:bold; font-size: larger; text-align: center;">Інформація</p>
+            <ul>
+                <li><a href="about.html" title="Про нас">Підписка</a></li>
+                <li><a href="caffeine.html" title="Цікава інформація про кофеїн">Про кофеїн</a></li>
+                <li><a href="afisa.html" title="Жива музика прямо у кав'ярні!">Афіша</a></li>
+            </ul>
+        </div>
+        <div style="margin: 10px 30px 30px 30px;">
+            <p style="font-weight:bold; font-size: larger; text-align: center;">Ми на зв'язку</p>
+            <a href="https://www.instagram.com/jasskierr/" target="_blank" style="padding: 3px;"><img src="..\img\icons\Instagram_logo_2016.svg.jpg" height="30" width="30"></a>
+            <a href="https://www.facebook.com/profile.php?id=100013451641264" target="_blank" style="padding: 3px;"><img src="..\img\icons\fb_icon_325x325.png" height="30" width="30"></a>
+            <a href="mailto:ilia161203@gmail.com?subject=Виникло питання" target="_blank" style="padding: 3px;"><img src="..\img\icons\Gmail_icon_(2020).svg.png" height="25" width="30"></a>  
+            <a href="skype:+380987142116?call" target="_blank" style="padding: 3px;"><img src="..\img\icons\640px-Skype_logo_(2019present).svg.png" height="30" width="30"></a>
+            <a href="tel:+380660267998" target="_blank" style="padding: 3px;"><img src="..\img\icons\png-transparent-telephone-mobile-phones-home-phone.png" height="30" width="30"></a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
